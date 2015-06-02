@@ -1,0 +1,21 @@
+.c{clear:both;}
+.area-tab{ width:99%; clear:both;display:none;}
+.area-tab{ border:1px solid #ccc; position:absolute; clear:both; background-color:#fff; z-index:9999;}
+.area-tab a{ text-decoration:none;}
+.area-tab ul {padding:0 !important;margin: 0; !important;}
+.area-tab .h{border-bottom:1px solid #ccc;height: 30px;}
+.s-tab-t{ float:left; width:80px; background-color:#f3f3f3; text-align:center; line-height:30px; color:#3b3b3b; border-right:1px solid #ccc; font-size:14px;}
+.s-tab-t span{ display:block; cursor:pointer; font-size: 14px !important;}
+.current {background-color:#fff; font-weight:bold; color:#0066cc;}
+.s-tab-b{ padding:10px 5px; display:none;	font-size: 12px;}
+.s-tab-b li{ float:left;	font-size: 12px; line-height: 1.8em; display: flex;}
+.s-tab-b li a{ display:block; text-align:center; padding:2px 6px;	font-size: 12px;}
+.s-tab-b li a:hover{  background-color:#9cd2ff;color:#404040;text-decoration: none;font-size: 12px;}
+.s-tab-b li a.current{  font-weight:normal;background-color:#9cd2ff;color:#404040;text-decoration: none;}
+dl.panel-category{background-color:#fff;}
+dl.panel-category dt{text-align: left !important;}
+.panel-item{ white-space:nowrap;color:#404040}
+.panel-category dt{color: #0066cc;;font-size:14px;line-height: 2.4em;}
+.area-tab-clean {position:relative;z-index:1;font-size: 12px;color: #FF0000;cursor: pointer;width:28px;float: left;}
+.box-sizing {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.closen{border-right:none;}
