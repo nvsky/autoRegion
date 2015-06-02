@@ -1,5 +1,6 @@
 /**
  * Created by qianlei on 14/11/19.
+ * author by duke on 15/06/01.
  */
 ;(function($){
     //init
