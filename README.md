@@ -1,7 +1,7 @@
 # FUCK the autoRegion
 
-<pre><code>
 
+```javascript
 	//编辑时初始化数据
 	$('#start').val('6,94,838|6,94,842|6,87|12|17');
 
@@ -20,4 +20,4 @@
 		x : 0,
 		y : 0
 	}); 
-</code></pre>
+```
