@@ -104,7 +104,7 @@
             b = b.replace('{a}',getProvinceData(options.source.province, ['A-G','H-K','L-S','T-Z']));
             b = b.replace('{b}','');
             b = b.replace('{c}','');
-            html += '<div class="area-tab"><ul class="h">'+a+'</ul><div class="c"><dl class="panel-category"><dt id="selectedText"></dt></dl></div>'+b+'</div>';
+            html += '<div class="area-tab"><ul class="h">'+a+'</ul><div class="c"><dl class="panel-category"><dt class="selectedText"></dt></dl></div>'+b+'</div>';
             if (self.next('.area-tab').length==0)
             {
                 hdname = options.hdname ? options.hdname : 'hd_'+self.attr('name');
@@ -214,7 +214,7 @@
 					};
 					
 					self.val(valtext.join(','));
-					$('#selectedText').html(valtext.join('，'));
+					self.next('.area-tab').find('.selectedText').html(valtext.join('，'));
 					hd.val(valcode.join('|'));
 				});
 			} else {
