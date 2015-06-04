@@ -115,7 +115,7 @@
             areatab.css({
                 'top': top+'px',
                 'left': left+'px',
-                'width': (ath.outerWidth()*ath.length)
+                'width': (ath.outerWidth()*ath.length)+'px'
             });
             areatab.show();
             hd = areatab.next();
